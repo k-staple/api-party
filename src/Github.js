@@ -43,7 +43,8 @@ class Github extends Component {
             </button>
           </div>
         </form>
-
+    
+        {/* key these are attributes and not in between tags */}
         <Route
             path="/github/:username"
             component={GithubUser}
